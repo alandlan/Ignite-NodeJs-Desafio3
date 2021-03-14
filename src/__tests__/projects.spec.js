@@ -109,7 +109,7 @@ describe("Projects", () => {
       });
 
     expect(response.body).toMatchObject({
-      likes: 0
+      likes: 15
     });
   });
 
